@@ -1,0 +1,4 @@
+name: AntiEasyMC
+main: me.rhys.Plugin
+version: 1.0
+description: Block accounts from easymc.io

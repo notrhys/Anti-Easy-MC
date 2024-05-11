@@ -1,0 +1,7 @@
+events:
+  usePreLoginEvent: false
+  joinEvent:
+    enabled: true
+    cancelSpigotJoinMessage: true
+messages:
+  kickMessage: "&cYou cannot join using an EasyMC account."
