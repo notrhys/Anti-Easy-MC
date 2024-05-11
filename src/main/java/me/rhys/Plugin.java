@@ -44,7 +44,8 @@ public class Plugin extends JavaPlugin {
         this.accountObjects.clear();
 
         try {
-            String response = HTTPUtil.getResponse("https://pastebin.com/raw/sXADz3nq");
+            String response = HTTPUtil.getResponse(
+                    "https://raw.githubusercontent.com/notrhys/Anti-Easy-MC/master/Data.Accounts.json");
             JSONArray jsonArray = new JSONArray(response);
 
             jsonArray.forEach(object -> {
